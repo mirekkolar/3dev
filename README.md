@@ -41,7 +41,7 @@ show_object(model, name="my_part")
 
 Select it from the dropdown to render it live:
 
-![CadQuery live 3D preview](docs/screenshots/cadquery-preview.png)
+![CadQuery live 3D preview](https://raw.githubusercontent.com/mirekkolar/3dev/master/docs/screenshots/cadquery-preview.png)
 
 ### KiCad — http://localhost:8000
 
@@ -49,7 +49,7 @@ Create/edit `.kicad_sch` and `.kicad_pcb` files anywhere under `/app` with KiCad
 machine (or any text editor, since KiCad files are S-expression text) — this container does not
 run the KiCad GUI. Every file found is listed and rendered read-only in the browser:
 
-![KiCad live schematic/PCB preview](docs/screenshots/kicad-preview.png)
+![KiCad live schematic/PCB preview](https://raw.githubusercontent.com/mirekkolar/3dev/master/docs/screenshots/kicad-preview.png)
 
 Whenever a `.kicad_sch`/`.kicad_pcb` file is created or changed, the watcher automatically
 exports a matching `.svg` file next to it. It also does an initial pass on container startup, so
