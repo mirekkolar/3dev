@@ -13,5 +13,7 @@ services:
       - APP_DIR=${APP_DIR:-/app}
       - CQ_MODELS_DIR=${CQ_MODELS_DIR:-/app/models}
       - WATCHER_DEBOUNCE_SECONDS=${WATCHER_DEBOUNCE_SECONDS:-1.0}
+      - STL_TOLERANCE_MM=${STL_TOLERANCE_MM:-0.01}
+      - STL_ANGULAR_TOLERANCE_RAD=${STL_ANGULAR_TOLERANCE_RAD:-0.05}
     volumes:
       - ./project:${APP_DIR:-/app}

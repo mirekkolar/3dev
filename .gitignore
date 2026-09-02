@@ -220,3 +220,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 *.svg
+
+# CadQuery model watcher output (see watcher.py / model_export.py) — regenerated on save
+*.stl
+*.png
+*.error.txt

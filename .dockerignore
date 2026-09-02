@@ -1,16 +1,6 @@
-# Runtime workspace mounted into the container by docker-compose.test.yml — not part of the image.
-project/
-
-# VCS / editor / OS cruft
-.git
-.gitignore
-.gitattributes
-.vscode
-.idea
-*.swp
-.DS_Store
-
-# Local scratch
-*.log
-__pycache__/
-*.pyc
+*
+!Dockerfile
+!supervisord.conf
+!watcher.py
+!model_export.py
+!kicad_web_server.py
